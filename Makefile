@@ -14,7 +14,7 @@ OPTIONS=-s WASM=1 -s USE_WEBGL2=0 -s DISABLE_DEPRECATED_FIND_EVENT_TARGET_BEHAVI
 DEPS= image.hpp main.cpp shell_fullscreen.html
 
 build/$(NAME).html: $(DEPS) 
-	mkdir build
+	mkdir -p build
 	$(CC) $(CFLAGS) main.cpp $(OPTIONS) -o build/$(NAME).html --shell-file shell_fullscreen.html
 
 clean:
