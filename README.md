@@ -11,7 +11,7 @@ Use *wasd* to move
 Click when zooming to stop zooming  
 Click when still to reset  
   
-For demo please see: https://jamespanayis.com/fractal1
+For demo please see: https://jamespanayis.com/interference1
 
 ## Build instructions
 
@@ -28,7 +28,7 @@ Run a local webserver and surf to it eg:
 
 	python -m SimpleHTTPServer 8080
 
-Browse to http://localhost:8080/build/fields1.html
+Browse to http://localhost:8080/build/interference1.html
 
 OR:
 
